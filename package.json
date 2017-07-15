@@ -1,0 +1,30 @@
+{
+  "name": "news_scraper",
+  "version": "1.0.0",
+  "description": "A web app that lets users leave comments on the latest news",
+  "main": "index.js",
+  "scripts": {
+    "test": "test command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivvoudit/news_scraper.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "nivvoudit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivvoudit/news_scraper/issues"
+  },
+  "homepage": "https://github.com/nivvoudit/news_scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.1",
+    "request": "^2.81.0"
+  }
+}
